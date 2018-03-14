@@ -1,0 +1,16 @@
+README
+
+===============================================================
+ABOUT
+
+a simple node.js application for generating derivative BTC addresses from ypub key.
+
+RUNNING THE APPLICATION
+
+$ node bjs-derive-address.js [param number of addresses] [param text file name]
+
+Example:
+$ node bjs-derive-address.js 10000 btc_addresses.txt
+# this will generate 10000 derivative addresses and stored it to btc_addresses.txt
+
+===============================================================

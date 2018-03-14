@@ -20,7 +20,7 @@ function nodeToP2shSegwitAddress(hdNode) {
   return bjs.address.fromOutputScript(scriptPubkey)
 }
 
-var xpub = ypubToXpub("ypub6XfXmfz39nUvAYnhKXtERhgoGfG2fiv2m5kFFG8F2BPbieUY2C2HBeaTCtetBdDumCq1rVnjuqhtZBpELmGw6YvSfbdcc4gXLnNzpKVakjK");
+var xpub = ypubToXpub("change this to your ypub");
 
 var hdNode = bjs.HDNode.fromBase58(xpub);
 
